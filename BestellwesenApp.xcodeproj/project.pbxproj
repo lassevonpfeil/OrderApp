@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A9855D2A238ED900EC49C9 /* BestellwesenAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9855C2A238ED900EC49C9 /* BestellwesenAppApp.swift */; };
+		C0A9855F2A238ED900EC49C9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9855E2A238ED900EC49C9 /* MainView.swift */; };
+		C0A985612A238EDA00EC49C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A985602A238EDA00EC49C9 /* Assets.xcassets */; };
+		C0A985642A238EDA00EC49C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A985632A238EDA00EC49C9 /* Preview Assets.xcassets */; };
+		C0A9856E2A238EDB00EC49C9 /* BestellwesenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9856D2A238EDB00EC49C9 /* BestellwesenAppTests.swift */; };
+		C0A985782A238EDB00EC49C9 /* BestellwesenAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A985772A238EDB00EC49C9 /* BestellwesenAppUITests.swift */; };
+		C0A9857A2A238EDB00EC49C9 /* BestellwesenAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A985792A238EDB00EC49C9 /* BestellwesenAppUITestsLaunchTests.swift */; };
+		C0A985882A238F1600EC49C9 /* InventarData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0A985862A238F1600EC49C9 /* InventarData.xcdatamodeld */; };
+		C0A9858A2A238FCE00EC49C9 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A985892A238FCE00EC49C9 /* DataController.swift */; };
+		C0A9858C2A23A2B200EC49C9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A9858B2A23A2B200EC49C9 /* DetailView.swift */; };
+		C0E71FDD2A27E5390011CA30 /* OrderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E71FDC2A27E5390011CA30 /* OrderingView.swift */; };
+		C0E71FDF2A2911080011CA30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E71FDE2A2911080011CA30 /* ContentView.swift */; };
+		C0E71FE32A29147C0011CA30 /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E71FE22A29147C0011CA30 /* InfoButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0A9856A2A238EDB00EC49C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A985512A238ED900EC49C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A985582A238ED900EC49C9;
+			remoteInfo = BestellwesenApp;
+		};
+		C0A985742A238EDB00EC49C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A985512A238ED900EC49C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A985582A238ED900EC49C9;
+			remoteInfo = BestellwesenApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0A985592A238ED900EC49C9 /* BestellwesenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestellwesenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A9855C2A238ED900EC49C9 /* BestellwesenAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestellwesenAppApp.swift; sourceTree = "<group>"; };
+		C0A9855E2A238ED900EC49C9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C0A985602A238EDA00EC49C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A985632A238EDA00EC49C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0A985692A238EDB00EC49C9 /* BestellwesenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestellwesenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A9856D2A238EDB00EC49C9 /* BestellwesenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestellwesenAppTests.swift; sourceTree = "<group>"; };
+		C0A985732A238EDB00EC49C9 /* BestellwesenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestellwesenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A985772A238EDB00EC49C9 /* BestellwesenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestellwesenAppUITests.swift; sourceTree = "<group>"; };
+		C0A985792A238EDB00EC49C9 /* BestellwesenAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestellwesenAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0A985872A238F1600EC49C9 /* InventarData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InventarData.xcdatamodel; sourceTree = "<group>"; };
+		C0A985892A238FCE00EC49C9 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C0A9858B2A23A2B200EC49C9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C0E71FDC2A27E5390011CA30 /* OrderingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderingView.swift; sourceTree = "<group>"; };
+		C0E71FDE2A2911080011CA30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0E71FE22A29147C0011CA30 /* InfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A985562A238ED900EC49C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A985662A238EDB00EC49C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A985702A238EDB00EC49C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A985502A238ED900EC49C9 = {
+			isa = PBXGroup;
+			children = (
+				C0A9855B2A238ED900EC49C9 /* BestellwesenApp */,
+				C0A9856C2A238EDB00EC49C9 /* BestellwesenAppTests */,
+				C0A985762A238EDB00EC49C9 /* BestellwesenAppUITests */,
+				C0A9855A2A238ED900EC49C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A9855A2A238ED900EC49C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A985592A238ED900EC49C9 /* BestellwesenApp.app */,
+				C0A985692A238EDB00EC49C9 /* BestellwesenAppTests.xctest */,
+				C0A985732A238EDB00EC49C9 /* BestellwesenAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A9855B2A238ED900EC49C9 /* BestellwesenApp */ = {
+			isa = PBXGroup;
+			children = (
+				C0E71FE62A2918D30011CA30 /* Managers */,
+				C0E71FE52A2918C20011CA30 /* Components */,
+				C0E71FE42A2918B00011CA30 /* Views */,
+				C0A9855C2A238ED900EC49C9 /* BestellwesenAppApp.swift */,
+				C0A985602A238EDA00EC49C9 /* Assets.xcassets */,
+				C0A985622A238EDA00EC49C9 /* Preview Content */,
+			);
+			path = BestellwesenApp;
+			sourceTree = "<group>";
+		};
+		C0A985622A238EDA00EC49C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0A985632A238EDA00EC49C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0A9856C2A238EDB00EC49C9 /* BestellwesenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A9856D2A238EDB00EC49C9 /* BestellwesenAppTests.swift */,
+			);
+			path = BestellwesenAppTests;
+			sourceTree = "<group>";
+		};
+		C0A985762A238EDB00EC49C9 /* BestellwesenAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A985772A238EDB00EC49C9 /* BestellwesenAppUITests.swift */,
+				C0A985792A238EDB00EC49C9 /* BestellwesenAppUITestsLaunchTests.swift */,
+			);
+			path = BestellwesenAppUITests;
+			sourceTree = "<group>";
+		};
+		C0E71FE42A2918B00011CA30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0E71FDC2A27E5390011CA30 /* OrderingView.swift */,
+				C0A9858B2A23A2B200EC49C9 /* DetailView.swift */,
+				C0E71FDE2A2911080011CA30 /* ContentView.swift */,
+				C0A9855E2A238ED900EC49C9 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0E71FE52A2918C20011CA30 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C0E71FE22A29147C0011CA30 /* InfoButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C0E71FE62A2918D30011CA30 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C0A985862A238F1600EC49C9 /* InventarData.xcdatamodeld */,
+				C0A985892A238FCE00EC49C9 /* DataController.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A985582A238ED900EC49C9 /* BestellwesenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A9857D2A238EDB00EC49C9 /* Build configuration list for PBXNativeTarget "BestellwesenApp" */;
+			buildPhases = (
+				C0A985552A238ED900EC49C9 /* Sources */,
+				C0A985562A238ED900EC49C9 /* Frameworks */,
+				C0A985572A238ED900EC49C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BestellwesenApp;
+			productName = BestellwesenApp;
+			productReference = C0A985592A238ED900EC49C9 /* BestellwesenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0A985682A238EDB00EC49C9 /* BestellwesenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A985802A238EDB00EC49C9 /* Build configuration list for PBXNativeTarget "BestellwesenAppTests" */;
+			buildPhases = (
+				C0A985652A238EDB00EC49C9 /* Sources */,
+				C0A985662A238EDB00EC49C9 /* Frameworks */,
+				C0A985672A238EDB00EC49C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A9856B2A238EDB00EC49C9 /* PBXTargetDependency */,
+			);
+			name = BestellwesenAppTests;
+			productName = BestellwesenAppTests;
+			productReference = C0A985692A238EDB00EC49C9 /* BestellwesenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0A985722A238EDB00EC49C9 /* BestellwesenAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A985832A238EDB00EC49C9 /* Build configuration list for PBXNativeTarget "BestellwesenAppUITests" */;
+			buildPhases = (
+				C0A9856F2A238EDB00EC49C9 /* Sources */,
+				C0A985702A238EDB00EC49C9 /* Frameworks */,
+				C0A985712A238EDB00EC49C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A985752A238EDB00EC49C9 /* PBXTargetDependency */,
+			);
+			name = BestellwesenAppUITests;
+			productName = BestellwesenAppUITests;
+			productReference = C0A985732A238EDB00EC49C9 /* BestellwesenAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A985512A238ED900EC49C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C0A985582A238ED900EC49C9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C0A985682A238EDB00EC49C9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C0A985582A238ED900EC49C9;
+					};
+					C0A985722A238EDB00EC49C9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C0A985582A238ED900EC49C9;
+					};
+				};
+			};
+			buildConfigurationList = C0A985542A238ED900EC49C9 /* Build configuration list for PBXProject "BestellwesenApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A985502A238ED900EC49C9;
+			productRefGroup = C0A9855A2A238ED900EC49C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A985582A238ED900EC49C9 /* BestellwesenApp */,
+				C0A985682A238EDB00EC49C9 /* BestellwesenAppTests */,
+				C0A985722A238EDB00EC49C9 /* BestellwesenAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A985572A238ED900EC49C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A985642A238EDA00EC49C9 /* Preview Assets.xcassets in Resources */,
+				C0A985612A238EDA00EC49C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A985672A238EDB00EC49C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A985712A238EDB00EC49C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A985552A238ED900EC49C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E71FDD2A27E5390011CA30 /* OrderingView.swift in Sources */,
+				C0A985882A238F1600EC49C9 /* InventarData.xcdatamodeld in Sources */,
+				C0E71FDF2A2911080011CA30 /* ContentView.swift in Sources */,
+				C0E71FE32A29147C0011CA30 /* InfoButton.swift in Sources */,
+				C0A9858A2A238FCE00EC49C9 /* DataController.swift in Sources */,
+				C0A9855F2A238ED900EC49C9 /* MainView.swift in Sources */,
+				C0A9858C2A23A2B200EC49C9 /* DetailView.swift in Sources */,
+				C0A9855D2A238ED900EC49C9 /* BestellwesenAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A985652A238EDB00EC49C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A9856E2A238EDB00EC49C9 /* BestellwesenAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A9856F2A238EDB00EC49C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A985782A238EDB00EC49C9 /* BestellwesenAppUITests.swift in Sources */,
+				C0A9857A2A238EDB00EC49C9 /* BestellwesenAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0A9856B2A238EDB00EC49C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A985582A238ED900EC49C9 /* BestellwesenApp */;
+			targetProxy = C0A9856A2A238EDB00EC49C9 /* PBXContainerItemProxy */;
+		};
+		C0A985752A238EDB00EC49C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A985582A238ED900EC49C9 /* BestellwesenApp */;
+			targetProxy = C0A985742A238EDB00EC49C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0A9857B2A238EDB00EC49C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0A9857C2A238EDB00EC49C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A9857E2A238EDB00EC49C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BestellwesenApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U39N6KQ62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LassevonPfeil.BestellwesenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0A9857F2A238EDB00EC49C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BestellwesenApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U39N6KQ62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LassevonPfeil.BestellwesenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0A985812A238EDB00EC49C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U39N6KQ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LassevonPfeil.BestellwesenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestellwesenApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BestellwesenApp";
+			};
+			name = Debug;
+		};
+		C0A985822A238EDB00EC49C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U39N6KQ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LassevonPfeil.BestellwesenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestellwesenApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BestellwesenApp";
+			};
+			name = Release;
+		};
+		C0A985842A238EDB00EC49C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U39N6KQ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LassevonPfeil.BestellwesenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BestellwesenApp;
+			};
+			name = Debug;
+		};
+		C0A985852A238EDB00EC49C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U39N6KQ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LassevonPfeil.BestellwesenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BestellwesenApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A985542A238ED900EC49C9 /* Build configuration list for PBXProject "BestellwesenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A9857B2A238EDB00EC49C9 /* Debug */,
+				C0A9857C2A238EDB00EC49C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A9857D2A238EDB00EC49C9 /* Build configuration list for PBXNativeTarget "BestellwesenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A9857E2A238EDB00EC49C9 /* Debug */,
+				C0A9857F2A238EDB00EC49C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A985802A238EDB00EC49C9 /* Build configuration list for PBXNativeTarget "BestellwesenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A985812A238EDB00EC49C9 /* Debug */,
+				C0A985822A238EDB00EC49C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A985832A238EDB00EC49C9 /* Build configuration list for PBXNativeTarget "BestellwesenAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A985842A238EDB00EC49C9 /* Debug */,
+				C0A985852A238EDB00EC49C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0A985862A238F1600EC49C9 /* InventarData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0A985872A238F1600EC49C9 /* InventarData.xcdatamodel */,
+			);
+			currentVersion = C0A985872A238F1600EC49C9 /* InventarData.xcdatamodel */;
+			path = InventarData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0A985512A238ED900EC49C9 /* Project object */;
+}
